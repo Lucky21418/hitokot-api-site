@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=no" />
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <title>毒鸡汤 | 碳导航</title>
+   <meta name="keywords" content="毒鸡汤,碳导航,碳市场,碳交易,碳排放,碳核查,温室气体清单,碳咨询,碳资产管理">
+   <meta name="description" content="碳导航毒鸡汤API">
+   <meta name="robots" content="noindex,follow">
+   <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/Lucky21418/hitokotocdn@1.1/img/favicon.ico">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Lucky21418/hitokotocdn@1.1/css/base.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Lucky21418/hitokotocdn@1.1/css/font-awesome.min.css">
+   <script src="./js/jquery-1.10.2.min.js" charset="utf-8"></script>
+   <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?dd67623eb4e81a61be9329aebf8c8a34";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+   <div class="index clearfix">
+      <div class="header">
+         <a target="_blank" href="https://navi.co2.press/aboutus/index.html" alt="关于碳导航"><img src="https://cdn.jsdelivr.net/gh/Lucky21418/hitokotocdn@1.1/img/logo.png" alt="毒鸡汤" class="logo"></a> 
+      </div> 
+      <div class="panel-main">
+         <div class="panel-main__inner panel-inverted">
+            <p><span id="jttext" class="text"></span></p>
+            <a href="javascript:;" class="check bubbly-button load_jt"   >再来一碗</a>
+         </div>  
+      </div>  
+      <div class="footer">
+         <div>
+            <nav class="cover-navigation navigation--social">
+              <ul class="navigation">
+              <!-- QQ -->
+              <li class="navigation__item tooltip">
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=214180667&site=qq&menu=yes" alt="@QQ" target="_blank">
+                  <i class="social fa fa-qq"></i>
+                  <span id="busuanzi_value_site_uv">316</span>
+                </a>
+                <span class="tooltiptext" style="width: 50px;margin-left: -25px;">QQ</span>
+              </li>
+              <!-- Weixin -->
+              <li class="navigation__item tooltip">
+                <a data-v="" href="#" alt="扫一扫加我微信" class="wechat">
+                  <i class="social fa fa-weixin"></i>
+                </a>
+                <span class="tooltiptext" style="width: 110px;margin-left: -55px;"><img data-v="" src="https://cdn.jsdelivr.net/gh/Lucky21418/hitokotocdn@1.1/img/wx.jpg" width="92"></span>
+              </li>
+              <!-- 导航 -->
+              <li class="navigation__item tooltip">
+                <a href="https://navi.co2.press" alt="碳导航" target="_blank">
+                  <i class="social fa fa-telegram"></i>
+                </a>
+                <span class="tooltiptext">碳导航</span>
+              </li>
+              <!-- github -->
+              <li class="navigation__item tooltip">
+                <a href="https://github.com/Lucky21418" alt="Deng's github" target="_blank">
+                  <i class="social fa fa-github"></i>
+                </a>
+                <span class="tooltiptext">站长的GitHub</span>
+              </li>
+              <!-- Email -->
+              <li class="navigation__item tooltip">
+                <a href="mailto:214180667@qq.com" alt="发邮件给我">
+                  <i class="social fa fa-envelope"></i>
+                </a>
+                <span class="tooltiptext">发邮件给我</span>
+              </li>
+              </ul>
+            </nav>
+         </div>
+         <p class="fo">Copyright © 2020 <a href="http://navi.co2.press/aboutus/index.html" target="_blank">碳导航</a> All Rights Reserved.</p>
+      </div>  
+   </div>
+   <script>
+      var animateButton = function(e) {
+         e.preventDefault;
+         e.target.classList.remove('animate');
+         e.target.classList.add('animate');
+         setTimeout(function(){
+            e.target.classList.remove('animate');
+         },700);
+      };
+      var classname = document.getElementsByClassName("bubbly-button");
+      for (var i = 0; i < classname.length; i++) {
+         classname[i].addEventListener('click', animateButton, false);
+      }
+   </script>
+   <script src="./js/api.js"></script>
+</body>
+</html>

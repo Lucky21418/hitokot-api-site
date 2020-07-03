@@ -9,7 +9,7 @@ PHP 5.7-7.3
 #### 项目说明
 1. 项目源自owen0o0的<a herf="https://github.com/owen0o0/dujitang" target="_blank">dujitang</a> https://github.com/owen0o0/dujitang
 2. Fontawesome文件分图标字体和一言字体，小水管建议屏蔽一言字体，也可以考虑托管到CDN
-3. 部分CSS文件、字体文件托管到了<a herf="https://www.jsdelivr.com" target="_blank">Jsdelivr</a> https://www.jsdelivr.com ，可以自己动手
+3. CSS文件、字体文件、图片文件托管到了<a herf="https://www.jsdelivr.com" target="_blank">Jsdelivr</a> https://www.jsdelivr.com ，可以改成自己的
 
 #### 安装说明
 1. 下载源码，修改index.htm中需要调整的信息
