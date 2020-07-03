@@ -16,5 +16,8 @@ PHP 5.7-7.3
 2. 上传所有文件到普通站点根目录下即可访问
 
 #### 网页调用说明
+
+```
 <script type="text/javascript" src="https://你的域名/api/?format=js&charset=utf-8"></script>
 <div id="hitokoto"><script>hitokoto()</script></div>
+```
